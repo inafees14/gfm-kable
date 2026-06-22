@@ -1,11 +1,11 @@
 GFM-Kable: Open Relationship Foundation Model
 
-["License: Friendzone" (https://img.shields.io/badge/license-Friendzone-red.svg)]
-["Accuracy" (https://img.shields.io/badge/accuracy-0.01%25-brightgreen.svg)]
-["Status" (https://img.shields.io/badge/status-Under%20Investigation-orange.svg)]
-["GPU" (https://img.shields.io/badge/GPU-Required%20Emotionally-blue.svg)]
+"License: Friendzone" (https://img.shields.io/badge/license-Friendzone-red.svg)
+"Accuracy" (https://img.shields.io/badge/accuracy-0.01%25-brightgreen.svg)
+"Status" (https://img.shields.io/badge/status-Under%20Investigation-orange.svg)
+"GPU" (https://img.shields.io/badge/GPU-Required%20Emotionally-blue.svg)
 
-Overview
+## Overview
 
 GFM-Kable (Girlfriend Frequency Maximizer - Kable Edition) is the world's first open-source Relationship Foundation Model trained on:
 
@@ -19,9 +19,8 @@ Unlike ChatGPT, Gemini, Claude, and other expensive proprietary systems, GFM-Kab
 
 Results may not transfer to production environments.
 
----
 
-Why GFM-Kable?
+## Why GFM-Kable?
 
 Modern foundation models can solve mathematics, coding, biology, and physics.
 
@@ -31,9 +30,9 @@ Yet none of them can answer:
 
 To address this critical research gap, we introduce GFM-Kable.
 
----
 
-Training Dataset
+
+### Training Dataset
 
 Dataset| Samples
 Instagram No-Reply Corpus| 480K
@@ -42,9 +41,9 @@ Seen-v2| 230K
 Dry Text Messages Benchmark| 560K
 Delusional Expectations Dataset| Unlimited
 
----
 
-Model Architecture
+
+## Model Architecture
 
 Input Features:
 
@@ -69,10 +68,11 @@ Output:
 - Bhai-Zone Probability
 - "Focus on Career" Recommendation
 
----
 
-Quick Start
 
+## Quick Start
+
+```{python}
 from gfm import GFMKable
 
 model = GFMKable()
@@ -86,17 +86,18 @@ result = model.predict(
 )
 
 print(result)
+```
 
 Output:
 
+```{python}
 Relationship Probability : 0.0004%
 
 Suggested Action :
 "Try again after salary increment."
+```
 
----
-
-Performance Comparison
+### Performance Comparison
 
 Model| Cost
 ChatGPT| Expensive
@@ -104,7 +105,6 @@ Gemini| Expensive
 Claude| Expensive
 GFM-Kable| Your self-respect
 
----
 
 Known Issues
 
